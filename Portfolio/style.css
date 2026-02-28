@@ -1,0 +1,114 @@
+
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f1f5f9;
+    color: #1e293b;
+    line-height: 1.7;
+}
+
+/* Header */
+.hero {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Profile Image */
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+}
+
+/* Navbar */
+.navbar {
+    background: #020617;
+    padding: 12px;
+    text-align: right;
+}
+
+.navbar a {
+    color: #e5e7eb;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #38bdf8;
+}
+
+/* Card Sections */
+.card {
+    background: white;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #0f172a;
+}
+
+/* Skills */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills-grid span {
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Projects */
+.project {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #f1f5f9;
+    border-left: 4px solid #1e293b;
+}
+
+/* Education */
+.edu-item {
+    margin-bottom: 18px;
+    padding-left: 15px;
+    border-left: 4px solid #38bdf8;
+}
+
+.edu-item h3 {
+    margin-bottom: 6px;
+    color: #0f172a;
+}
+
+.edu-item p {
+    color: #475569;
+    font-size: 15px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #020617;
+    color: #cbd5f5;
+    margin-top: 40px;
+}
